@@ -1,0 +1,1 @@
+File format :MonsterID,MonsterName,Description,Separator,DefeatedDescription,Separator,HP,DealDamage,FixNumber,isDefeated,Armor,MonsterDrops

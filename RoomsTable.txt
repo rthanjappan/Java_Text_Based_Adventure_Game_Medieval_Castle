@@ -1,0 +1,321 @@
+RoomID,RoomName,Description,Separator,isVisited,Navigation,ItemID,PuzzleID,MonsterID
+
+TLR1
+Dark Room
+"Welcome to the game, you can move between rooms by entering North/South/East/West/Up/Down.
+You wake up in a dark room, with nothing but the clothes on your back.
+You have no memory of how you ended up here,
+but you know you need to escape and get back to your mission.
+There is a wooden door hanging open to the North. For More information, type help."
+----
+FALSE
+TLR2,0,0,0
+0
+0
+0
+
+TLR2
+Dark Tunnel
+"You walk into a dark tunnel and come across a smooth stone wall to the north that has an indentation in it.
+Maybe you should look around for something that fits?
+You can look around your surroundings by typing Look/Search.
+This Command also works on anything you might come across, such as items, enemies, or puzzles."
+----
+FALSE
+TLR3,0,TLR1,0
+1
+P1
+0
+
+TLR3
+Wine Cellar
+"You squeeze through the hole in the wall and find yourself in what appears to be a wine cellar.
+There is a trap door at the top of a set of stairs. You can go Up, or South."
+----
+FALSE
+TLR4,0,TLR2,0
+2
+0
+0
+
+TLR4
+Dimly Lit Hall
+"You exit the cellar into a dimly lit hall.
+There is a sleeping guard by the only other door, to the north.
+You can go North, or Down."
+----
+FALSE
+TLR5,0,TLR3,0
+3
+0
+TLM1
+
+TLR5
+Vacant Alley
+"You come through the door into a vacant back alley,
+there is a seedy looking merchant set up at the entrance to the alley, to the north.
+You can go North, South, East, or West."
+----
+FALSE
+TLR6,UB1,TLR4,WR1
+4
+0
+TLM2
+
+TLR6
+Market Square
+"A bustling market set up in the shadow of a gigantic building with a sealed vault door.
+You can go West, East, or South."
+----
+FALSE
+TLR7,T22,TLR5,CH17
+0
+P5
+0
+
+TLR7
+Vault
+"The vault door swings open, revealing a room empty except for a plate of cookies sitting on the floor.
+You’ve won! Thanks so much for playing!"
+----
+FALSE
+0,0,TLR6,0
+0
+0
+0
+
+WR1
+Woods Entrance Road
+"The southwestern road out of town leads to a thickly wooded forest,
+full of wildlife and ancient ruins from a long-gone society.
+You can keep travelling down the road to the West, or return to town to the East. "
+----
+FALSE
+0,TLR5,0,WR2
+0
+0
+0
+
+WR2
+Woods Clearing
+"After a few minutes of travel, the road slowly turns from gravel to dirt.
+You approach a clearing and spot a freshly slain deer being devoured by a lone wolf.
+The path continues to the North, the forest is thriving to the South,
+you can hear a humming from the West, and there is the road to town to the East."
+----
+FALSE
+WR4,WR1,WR3,WR5
+5
+0
+WM1
+
+WR3
+Thriving Forest
+"As you walk through the forest the trees seem to create a path Following the path,
+you find what appears to be the source of the humming,
+a beautiful flower growing on top of a runed altar.
+You can go North."
+----
+FALSE
+WR2,0,0,0
+7
+0
+0
+
+WR4
+Thick Stand
+"The road comes to an end into a stand of trees so dense that the sun barely shines through.
+Suddenly, one of the largest trees seems to come to life, and
+shambles over and places itself right in front of you. You can go South."
+----
+FALSE
+0,0,WR2,0
+6
+0
+WM2
+
+WR5
+Ancient Clearing
+"You come across a looming wooden gate covered in runes,
+that is emitting a magical aura that you cannot pass through.
+A destroyed shrine looms behind the barrier.
+If you can find a way to disable the barrier, you can continue to the West.You can go East."
+----
+FALSE
+0,WR2,0,WR6
+0
+P2
+0
+
+WR6
+Ancient Shrine
+"The remains of the shrine are crumbling.
+There is a monolith with a runed medallion hanging from it."
+----
+FALSE
+0,WR5,0,WR1
+8
+0
+0
+
+T22
+Tower1
+"You enter a large hallway that has a spiral staircase leading up at the end.
+Patrolling the hallway is a Grunt of the Tower"
+----
+FALSE
+T23,0,0,TLR6
+9
+0
+TM3
+
+T23
+Tower2
+"Once you reach the next floor you stumble upon a dimly lit room with a central table.
+Upon entering the room, you notice a golden cup on the farther side of the table."
+----
+FALSE
+T24,0,T22,0
+13
+0
+0
+
+T24
+Tower3
+Tower room 24
+----
+FALSE
+T25,0,T23,0
+0
+0
+0
+
+T25
+Tower4
+"The second to last floor of the tower seems to be more decorated than other floors.
+There are various baskets filled with fruits and on top of the shelf you notice a Health potion."
+----
+FALSE
+T26,0,T24,0
+3
+0
+0
+
+T26
+Tower5
+"The final floor of the tower is the roof area where you can see the other wings of the castle.
+Before you can enjoy the scenery the Knight (TM2) prepares an attack."
+----
+FALSE
+T22,0,T25,0
+10
+P3
+TM2
+
+CH17
+Muddy Marsh
+"The ground is all wet and muddy. There are frogs flopping around hoping for flies.
+Hopefully there are no hungry alligators nearby…"
+----
+FALSE
+0,TLR6,0,CH18
+0
+0
+0
+
+CH18
+Smoked Swamp
+"There’s a deep fog that the sun cannot penetrate.
+The fog is covering the swamp, making it quite difficult to see.
+The fog is so thick, it could be cut by a knife…"
+----
+FALSE
+0,CH17,0,CH19
+14
+0
+SM1
+
+CH19
+Willow Wetlands
+There are willow trees everywhere and there seems to be wild animals looking for some food.
+There are fishing ponds and seem to be plentiful of fish…
+----
+FALSE
+CH20,CH18,0,0
+15
+P9
+0
+
+CH20
+Witch’s Hut
+There is a witch’s hut 3-meters off the swampy ground.
+Maybe we should not invade...
+----
+FALSE
+0,CH21,CH19,0
+16
+0
+SM2
+
+CH21
+Puzzling Pain Lands
+There’s an aura in the air giving off some confusing vibes...
+maybe there is something around.
+----
+FALSE
+0,CH17,0,CH20
+0
+P8
+0
+
+UB1
+Alpha(UB)
+The tunnel was abandoned for good reason, only fools venture there.
+----
+FALSE
+0,UB2,0,TLR5
+0
+0
+0
+
+UB2
+Beta(UB)
+"“The colours of our rooms spoke of ocean, wave-kissed land and rock.
+Yet they sang of movement of the water, its sound and aroma.
+They kept alive the kind of memories that keep me well anchored.”"
+----
+FALSE
+0,UB3,0,UB1
+0
+0
+0
+
+UB3
+Charlie(UB)
+“No man truly knows what he is made of until he goes up and slaps the dragon.”
+----
+FALSE
+0,0,UB4,UB2
+11
+P6
+UB1
+
+UB4
+Delta(UB)
+“The trident of Neptune is the sceptre of the world”
+----
+FALSE
+UB3,0,0,UB5
+0
+P7
+0
+
+UB5
+Echo(UB)
+A strange screech echo across the hallway, what could it be...
+----
+FALSE
+0,UB4,0,UB1
+12
+0
+UB2

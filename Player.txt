@@ -1,0 +1,8 @@
+PlayerID,PlayerHP,PlayerDealDamage,PLayerInventory,CurrentRoomID,RoundCount,equippedItems
+1
+500
+20
+0
+TLR1
+1
+0

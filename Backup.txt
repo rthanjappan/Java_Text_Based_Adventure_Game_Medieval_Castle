@@ -1,0 +1,13 @@
+System.out.println("+------------------------------------------------------------------+");
+        System.out.println("| 			Help		          			                       |");
+        System.out.println("+------------------------------------------------------------------+");
+        System.out.println("| Player directions are North,Up,South,Down,East, and West	       |");
+        System.out.println("| You may pick up items by entering “pick up <item name>”	       |");
+        System.out.println("| You may check your inventory by entering “check inventory”	   |");
+        System.out.println("| You may save the game by entering “save”			               |");
+        System.out.println("| You may attack monsters by entering “attack”			           |");
+        System.out.println("| You may use items by entering “consume <item>”		           |");
+        System.out.println("| You may equip items by entering “equip <item>”		           |");
+        System.out.println("| You may solve the puzzle by entering “solve puzzle”		       |");
+        System.out.println("| You may ask for hints for puzzles by entering “hint”		       |");
+        System.out.println("+------------------------------------------------------------------+");

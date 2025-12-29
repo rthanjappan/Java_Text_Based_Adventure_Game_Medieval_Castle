@@ -1,0 +1,129 @@
+ItemType,ItemID,ItemName,Description,damage/healthEffect,isUsed,isAvailableToPickup
+
+Usable
+1
+Smooth Stone
+A smooth stone that looks like it would fit in the indentation on the northern wall.
+0
+FALSE
+true
+
+Equippable
+2
+Club
+A rotted wooden club, probably only good for one good hit.
+10
+FALSE
+true
+
+Usable
+3
+Health Potion
+A small phial of red liquid that has healing properties.
+20
+false
+false
+
+Equippable
+4
+Rusty Dagger
+A dull blade that has seen better days.
+10
+false
+false
+
+Equippable
+5
+Pelt
+Wolf pelt, thick enough to defend against light blows.
+10
+false
+false
+
+Usable
+6
+Treant Heart
+The last remnant of a living tree, the rest having withered to dust the moment it was slain.
+0
+false
+false
+
+Usable
+7
+Humming Flower
+A beautiful flower emitting an audible hum. Could it be magical?
+0
+FALSE
+true
+
+Usable
+8
+Wooden Medal
+An intricately carved wooden medallion.
+0
+false
+true
+
+Equippable
+9
+Sword
+A sword not of the highest quality but durable enough to be useful in the journey.
+15
+false
+false
+
+Usable
+10
+Final Key 3
+A key dropped by the Knight (TM2) of the Tower. It is one of the four keys needed to escape the castle
+0
+false
+false
+
+Equippable
+11
+The Trident of Kappa
+A weapon/artifact of ocean-associated powers
+20
+false
+false
+
+Usable
+12
+Key 2
+One of the few keys needed to unlock the final boss
+0
+false
+false
+
+Usable
+13
+Golden Cup
+Usable cup
+0
+false
+true
+
+Usable
+14
+Cooked Chicken
+A tasty looking chicken. A little burnt on the leg, but otherwise very gourmet.
+10
+false
+false
+
+Equippable
+15
+Spell book
+A book full of magical spells and recipes for potions!
+15
+FALSE
+true
+
+Usable
+16
+Key 1
+A key dropped by the witch of the swamp. One of the four keys needed to escape the castle.
+0
+FALSE
+false

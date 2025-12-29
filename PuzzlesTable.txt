@@ -1,0 +1,94 @@
+PuzzleID, PuzzleName, Description,----,solvedDescription,****,requiredItem, requiredString,NoOfAttempts,isSolved
+
+P1
+Tutorial Wall
+A smooth granite wall with a small circular indentation, maybe there is something nearby that might fit?
+----
+The wall slides open, revealing a passage to the North.
+****
+1
+0
+0
+false
+
+P2
+Runed Gate
+A Gigantic Tree that has been split in two, shaped into a gate.
+Runes cover the entire surface of the gate, powered by an unknown energy.
+----
+The gate creaks open, and the magical barrier fades away.
+****
+6,7
+0
+0
+false
+
+P3
+List of Words
+The Knight (TM2) in the next room does not let anyone enter unless they know the keyword.
+----
+Solved!The gate creaks open, and the magical barrier fades away.
+****
+0
+password
+3
+FALSE
+
+P5
+Final Puzzle
+You can see the large silver doors leading towards the exit.
+The door and the four keyholes are all that holds you in this prison
+----
+Solved!
+****
+10,12,16
+0
+0
+false
+
+P6
+The legend of Kappa
+After defeating Kappa, its weapons drops beneath the monster,
+shine a light through the door to the next room
+----
+“The dark room was like a place out of time, a place to rest without consequence.”
+****
+11
+0
+0
+false
+
+P7
+Kekkai’s mystery
+A series of strange letters appears on the wall, near the door the next room,
+and there’s an empty space in the middle of the letters...
+----
+Solved! Go face Kekkai
+****
+11
+0
+0
+false
+
+P8
+Seal of Binding
+There seems to be a seal locking the chest from outsiders. Maybe if we had insider knowledge...
+----
+Solved!! The seal vanishes and the chest can be opened now.
+****
+15
+0
+0
+false
+
+P9
+Riddle Of Aqua
+A vessel have I, that is round as a pear, moist in the middle,
+surrounded with hair; and often it happens, that water flows there.
+----
+Solved!
+****
+0
+eye
+3
+false

@@ -1,0 +1,25 @@
+File format :ItemType,ItemID,ItemName,Description,damage/healthEffect,isUsed,isAvailableToPickup
+
+Usable
+3
+Health Potion
+A small phial of red liquid that has healing properties.
+20
+true
+true
+
+Usable
+13
+Golden Cup
+Usable cup
+0
+false
+true
+
+Usable
+8
+Wooden Medal
+An intricately carved wooden medallion.
+0
+false
+true

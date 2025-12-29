@@ -1,0 +1,8 @@
+File format :PlayerID,PlayerHP,PlayerDealDamage,PLayerInventory,RoomID,RoundCount,equippedItems
+1
+295
+20
+13,8
+TLR7
+25
+0

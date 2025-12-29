@@ -1,0 +1,137 @@
+MonsterID,MonsterName,Description,Separator,DefeatedDescription,Separator,HP,DealDamage,FixNumber,isDefeated,Armor,MonsterDrops
+
+TLM1
+Drowsy Guard
+A sleeping man, he will probably go down easily.
+----
+You find a health potion in the man’s pocket.
+****
+1
+1
+5
+FALSE
+0
+3
+
+TLM2
+Shady Merchant	A frail looking merchant, most of his wares look useless, with the exception of a Rusty Dagger.
+----
+The man falls to the ground, you take his only useful possession.
+****
+1
+1
+5
+FALSE
+0
+4
+
+TM2
+Knight
+An elite monster in the tower. The metal armor surrounding him is made of the strongest material in the tower
+but the armor around his legs seems weak.
+----
+The knight turns to dust and his armor hits the ground with a clank leaving a key lying in the remains
+****
+100
+25
+5
+FALSE
+50
+10
+
+TM3
+Grunt
+A very basic looking enemy. From the way he holds his sword you can tell he is newly recruited.
+----
+The grunt drops his sword and staggers to the ground mumbling “This job wasn’t worth the pay.”
+****
+25
+10
+5
+FALSE
+20
+9
+
+WM1
+Wolf
+The wolf appears malnourished, and can probably be easily slain.
+----
+The wolf goes down without much of a fight, its pelt may prove useful in the adventure to come.
+****
+30
+10
+5
+FALSE
+0
+5
+
+WM2
+Treant
+The lumbering giant appears slow and sturdy. Will not go down without a fight.
+----
+The treant withers as it dies, leaving only a glowing knot of wood.
+****
+50
+15
+5
+FALSE
+0
+6
+
+UB1
+Kappa
+A small, green goblin-like creature, low health, but very high damage.
+Very slow attack rate, could be defeated easily with most weapon in 1-2 attacks.
+----
+The Trident of Kappa is for you to pickup.
+****
+20
+50
+5
+FALSE
+0
+11
+
+UB2
+Kekkai
+A doll-like creature, very small, low damage, but extremely tanky.
+Very slow attack rate, attacks has high rate of “miss” to the player,
+any normal weapon will defeat this monster.
+----
+Leaves the key for you to pickup.
+****
+100
+5
+5
+FALSE
+0
+12
+
+SM1
+Goblin
+A sneaky little bridge troll looking for some loot to grab off travelers. Watch your pouches!
+----
+Your pockets are now carefree knowing they will not be pick pocket today.
+A healthy cooked chicken is for you to pickup.
+****
+25
+0
+5
+FALSE
+5
+14
+
+SM2
+Witch
+Living in a hut with her black cat of misfortune,
+the witch goes looking for intruders in her swamp to use for next stew dinner….
+----
+You can be excited for dinner now that you know it will not be you!
+The witch leaves a key for you to pickup.
+****
+75
+30
+5
+FALSE
+5
+16
